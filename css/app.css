@@ -1,0 +1,54 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.app {}
+
+.header {
+    height: 60px;
+    background-color: rgb(245, 245, 245);
+    box-shadow: 0 0px 5px rgb(200, 200, 200);
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.nav {
+    width: 100%;
+    padding: 0 60px;
+}
+
+.nav-container {
+    display: flex;
+}
+
+.nav-container > .nav-list:first-child > .nav-item:first-child {
+    margin-right: 40px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+}
+
+.nav-btns {
+    margin-left: auto;
+}
+
+.btn {
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
