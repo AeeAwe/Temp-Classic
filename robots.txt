@@ -2,3 +2,5 @@ Sitemap: https://temp-classic.vercel.app/sitemap.xml
 User-agent: *
 Disallow: https://temp-classic.vercel.app/404.html
 Disallow: https://temp-classic.vercel.app/pages/admin/admin.html
+Disallow: https://temp-classic.vercel.app/pages/auth/login.html
+Disallow: https://temp-classic.vercel.app/pages/auth/register.html
